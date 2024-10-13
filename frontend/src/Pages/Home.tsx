@@ -41,13 +41,13 @@ export default function Home() {
                 <div className="rounded-md shadow">
                   <a href="/register"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base primary-btn md:py-4 md:text-lg md:px-10">
-                    Get started
+                    Get Started
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a href="/login"
                     className="w-full flex items-center justify-center px-8 py-3 text-base secondary-btn md:py-4 md:text-lg md:px-10">
-                    Live demo
+                    Live Demo
                   </a>
                 </div>
               </div>

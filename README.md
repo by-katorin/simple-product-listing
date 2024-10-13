@@ -34,7 +34,6 @@ cp .env.example .env
 
 composer install
 php artisan key:generate
-php artisan migrate:fresh --seed
 ```
 
 #### Frontend
@@ -51,6 +50,12 @@ npm i
 ```
 php artisan serve
 ```
+For the database, we can simply use SQLite. Create a blank _**database.sqlite**_ file inside backend/database/ folder.
+
+In another Terminal tab/window, run migrations and seeders
+```
+php artisan migrate:fresh --seed
+```
 
 #### Frontend
 ```
@@ -60,6 +65,9 @@ npm run dev
 ### Access the Application
 
 Visit http://localhost:5173 (or copy the Local server in `npm run dev` ) in your web browser.
+
+![alt text](images/image01.png)
+![alt text](images/image02.png)
 
 #### Login Credentials
 

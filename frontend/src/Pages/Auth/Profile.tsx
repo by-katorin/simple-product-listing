@@ -32,13 +32,13 @@ export default function Profile({ user }: {user: User}) {
   }
 
   return (user &&
-    <div className="mx-auto w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="mx-auto w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow">
       <div className="flex flex-col items-center pb-10">
         <img className="w-24 h-24 my-5 rounded-full shadow-lg" src={imageUrl} />
-        <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+        <h5 className="mb-1 text-xl font-medium text-gray-900">
           {user.name}
         </h5>
-        <span className="text-sm text-gray-500 dark:text-gray-400">
+        <span className="text-sm text-gray-500">
           {user.email}
         </span>
         <div className="flex mt-4 md:mt-6">

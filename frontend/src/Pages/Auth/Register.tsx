@@ -44,7 +44,7 @@ export default function Register() {
     <div className="mx-auto pt-5 pb-16">
       <Breadcrumbs currentPage='Register' />
 
-      <h4 className="text-center text-2xl mb-8 font-bold dark:text-white">
+      <h4 className="text-center text-2xl mb-8 font-bold">
         Register
       </h4>
 

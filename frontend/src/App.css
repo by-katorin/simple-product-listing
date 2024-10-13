@@ -19,7 +19,7 @@
     input[type="search"],
     input[type="tel"],
     input[type="url"], textarea {
-        @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md outline-0 focus:border-pink-700 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500;
+        @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md outline-0 focus:border-pink-700 block w-full p-2.5;
     }
     label {
         @apply block text-sm font-medium leading-6 text-blue-900 first-letter:capitalize;
@@ -37,7 +37,7 @@
         @apply flex items-center justify-center rounded-md bg-blue-900 px-3 py-2 text-sm font-semibold text-white hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:bg-blue-400 disabled:cursor-wait;
     }
     .secondary-btn {
-        @apply flex items-center justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold border border-blue-800 hover:bg-blue-100 hover:border-blue-100 hover:text-gray-700 focus:z-10 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700;
+        @apply flex items-center justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold border border-blue-800 hover:bg-blue-100 hover:border-blue-100 hover:text-gray-700 focus:z-10;
     }
     .text-link {
         @apply font-semibold text-blue-500 hover:text-blue-600;
@@ -70,10 +70,10 @@
         @apply w-8 h-8 rounded-full overflow-hidden object-center object-cover;
     }
     .active-page {
-        @apply flex items-center justify-center px-3 h-8 text-gray-600 border border-gray-300 bg-pink-100 hover:bg-gray-100 hover:text-gray-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white;
+        @apply flex items-center justify-center px-3 h-8 text-gray-600 border border-gray-300 bg-pink-100 hover:bg-gray-100 hover:text-gray-700;
     }
     .default-page {
-        @apply flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-blue-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white;
+        @apply flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-blue-100 hover:text-gray-700;
     }
     .search-btn {
         @apply absolute cursor-auto top-0 end-0 p-2.5 text-sm h-full rounded-e-md border border-blue-700 bg-blue-900 font-semibold text-white hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:bg-blue-400 disabled:cursor-wait
