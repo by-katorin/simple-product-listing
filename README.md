@@ -3,7 +3,7 @@
 A Laravel 11 + React (TypeScript) application that provides a user-friendly interface using Tailwind CSS for managing products and external API integration.
 
 ### Tech Stack
-![Laravel](https://img.shields.io/badge/laravel-red.svg?style=for-the-badge&logo=laravel&logoColor=white) ![React](https://img.shields.io/badge/react-%2300000F.svg?style=for-the-badge&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%2338B2AC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%230db7ed.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Laravel](https://img.shields.io/badge/laravel-red.svg?style=for-the-badge&logo=laravel&logoColor=white) ![React](https://img.shields.io/badge/react-%230e86c2.svg?style=for-the-badge&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23c2a70e.svg?style=for-the-badge&logo=typescript&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2305ab92.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23532594.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 ## Key Features
 
